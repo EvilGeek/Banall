@@ -51,7 +51,7 @@ if Config.PYRO_SESSION:
     print("process completed")
 
 
-if Config.PYRO_SESSION:
+if False:
   @ass.on_message(filters.command(["start", "ping"]))
   async def hello(bot: ass, message):
     await message.reply("Hello, This Is Banall Bot I can Ban Members Within seconds!\n\n Simply Promote my By Adminstration then Type username")
@@ -87,7 +87,7 @@ if Config.TELEGRAM_TOKEN:
     print("process completed")
 
 
-if Config.TELEGRAM_TOKEN:
+if False:
   @bot.on_message(filters.command(["start", "ping"]))
   async def hello(bot, message):
     await message.reply("Hello, This Is Banall Bot I can Ban Members Within seconds!\n\n Simply Promote my By Adminstration then Type username")
